@@ -72,6 +72,8 @@ Public Class Form1
             Label1.Text = "Activation Key: " + input + Environment.NewLine + "Activated = true"
         ElseIf str = "false" Then
             Label1.Text = "Activation Key: Invalid" + Environment.NewLine + "Activated = false"
+        ElseIf str = "error" Then
+            Label1.Text = "Error Fetching Key......"
         Else
             Label1.Text = "Unable to communicate with server!"
         End If
