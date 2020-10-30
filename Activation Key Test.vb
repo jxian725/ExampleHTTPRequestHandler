@@ -8,7 +8,7 @@ Public Class Form1
         Dim input As String = TextBox1.Text
         'Method 1
         'Address of URL
-        Dim URL As String = "https://asia-southeast2-uhs-shop-93690.cloudfunctions.net/activationkey?key="
+        Dim URL As String = "http://bit.ly/UHSPremium?key="
         Dim FullUrl As String = URL + input
         ' Get HTML data
         Dim client As WebClient = New WebClient()
