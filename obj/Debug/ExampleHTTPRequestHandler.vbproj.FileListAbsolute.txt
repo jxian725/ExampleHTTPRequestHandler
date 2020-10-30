@@ -1,0 +1,12 @@
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\obj\Debug\ExampleHTTPRequestHandler.vbprojAssemblyReference.cache
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\obj\Debug\ExampleHTTPRequestHandler.Form1.resources
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\obj\Debug\ExampleHTTPRequestHandler.Resources.resources
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\obj\Debug\ExampleHTTPRequestHandler.vbproj.GenerateResource.cache
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\obj\Debug\ExampleHTTPRequestHandler.vbproj.CoreCompileInputs.cache
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\bin\Debug\TestActivationKey.exe.config
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\bin\Debug\TestActivationKey.exe
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\bin\Debug\TestActivationKey.pdb
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\bin\Debug\TestActivationKey.xml
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\obj\Debug\TestActivationKey.exe
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\obj\Debug\TestActivationKey.xml
+C:\Users\jingx\source\repos\ExampleHTTPRequestHandler\obj\Debug\TestActivationKey.pdb
