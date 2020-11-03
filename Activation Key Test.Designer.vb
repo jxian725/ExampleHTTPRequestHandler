@@ -32,8 +32,14 @@ Partial Class Form1
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.RadioButtonv1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonv2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButtons1 = New System.Windows.Forms.RadioButton()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -124,11 +130,65 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "HTTP Response"
         '
+        'Panel3
+        '
+        Me.Panel3.Controls.Add(Me.Label3)
+        Me.Panel3.Controls.Add(Me.RadioButtons1)
+        Me.Panel3.Controls.Add(Me.RadioButtonv2)
+        Me.Panel3.Controls.Add(Me.RadioButtonv1)
+        Me.Panel3.Location = New System.Drawing.Point(4, 44)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(76, 100)
+        Me.Panel3.TabIndex = 7
+        '
+        'RadioButtonv1
+        '
+        Me.RadioButtonv1.AutoSize = True
+        Me.RadioButtonv1.Location = New System.Drawing.Point(3, 26)
+        Me.RadioButtonv1.Name = "RadioButtonv1"
+        Me.RadioButtonv1.Size = New System.Drawing.Size(38, 17)
+        Me.RadioButtonv1.TabIndex = 0
+        Me.RadioButtonv1.TabStop = True
+        Me.RadioButtonv1.Text = "V1"
+        Me.RadioButtonv1.UseVisualStyleBackColor = True
+        '
+        'RadioButtonv2
+        '
+        Me.RadioButtonv2.AutoSize = True
+        Me.RadioButtonv2.Location = New System.Drawing.Point(3, 45)
+        Me.RadioButtonv2.Name = "RadioButtonv2"
+        Me.RadioButtonv2.Size = New System.Drawing.Size(38, 17)
+        Me.RadioButtonv2.TabIndex = 1
+        Me.RadioButtonv2.TabStop = True
+        Me.RadioButtonv2.Text = "V2"
+        Me.RadioButtonv2.UseVisualStyleBackColor = True
+        '
+        'RadioButtons1
+        '
+        Me.RadioButtons1.AutoSize = True
+        Me.RadioButtons1.Location = New System.Drawing.Point(3, 64)
+        Me.RadioButtons1.Name = "RadioButtons1"
+        Me.RadioButtons1.Size = New System.Drawing.Size(38, 17)
+        Me.RadioButtons1.TabIndex = 2
+        Me.RadioButtons1.TabStop = True
+        Me.RadioButtons1.Text = "S1"
+        Me.RadioButtons1.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(3, 8)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(66, 13)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Product Var:"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(419, 276)
+        Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Panel1)
@@ -143,6 +203,8 @@ Partial Class Form1
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -157,4 +219,9 @@ Partial Class Form1
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label1 As Label
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents RadioButtons1 As RadioButton
+    Friend WithEvents RadioButtonv2 As RadioButton
+    Friend WithEvents RadioButtonv1 As RadioButton
+    Friend WithEvents Label3 As Label
 End Class

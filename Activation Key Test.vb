@@ -32,6 +32,7 @@ Public Class Form1
         Label1.Text = ""
         Label2.Text = ""
         TextBox2.Hide()
+        Panel3.Show()
     End Sub
 
     Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
@@ -40,6 +41,7 @@ Public Class Form1
         Label1.Text = ""
         Label2.Text = ""
         TextBox2.Show()
+        Panel3.Hide()
     End Sub
 
     Private Sub TextBox2_Click(sender As Object, e As EventArgs) Handles TextBox2.Click
@@ -59,7 +61,16 @@ Public Class Form1
     Public Sub Selection1()
         input = TextBox1.Text
         Label2.Text = "Reading......"
-        Dim URL As String = "https://asia-southeast2-uhs-shop-93690.cloudfunctions.net/activationkey?key="
+        Dim URL As String
+        If RadioButtonv1.Checked = True Then
+            URL = "https://asia-southeast2-uhs-shop-93690.cloudfunctions.net/activationkeyv1?key="
+        ElseIf RadioButtonv2.Checked = True Then
+            URL = "https://asia-southeast2-uhs-shop-93690.cloudfunctions.net/activationkeyv2?key="
+        ElseIf RadioButtons1.Checked = True Then
+            URL = "https://asia-southeast2-uhs-shop-93690.cloudfunctions.net/activationkeys1?key="
+        Else
+            MsgBox("Product Variation Error!")
+        End If
         Dim FullUrl As String = URL + input
         ' Get HTML data
         Dim client As WebClient = New WebClient()
