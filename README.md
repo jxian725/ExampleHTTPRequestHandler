@@ -25,7 +25,7 @@ The application can also be used to retrieve HTML coding of a webpage by sending
 4. Enter additional parameter (optional). For Examples: ?name=John&age=30
 5. Click [Send HTTP Request]
 
-#Examples
+# Examples
 ## HTTP Request and Response 
 ![Image of HTTPRequest](https://i.imgur.com/xzNzCAG.png)
 
